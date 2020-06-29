@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ h3{
+text-align: center;
+}
+p.link{
+position:absolute;
+top:50px;
+}
+p.rdip{
+position:absolute;
+top:67px;
+right:0;
+}
+ul {
+  list-style-type: none;
+  margin: 90px 0px;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+form{
+	margin-left: 15px;
+	float: left;
+}
+	
+</style>
+</head>
+<body>
+	<h3>REGISTRATION PAGE:</h3>
+<p class="link"><a href="https://www.iiit.ac.in/"><img src="https://www.iiit.ac.in/img/iiit-new.png" alt="iiithyderabad" width="50" height="50"></a></p>
+<p class="rdip"><a href="https://serc.iiit.ac.in/rdip" alt="rdip">RDIP</a></p>
+<ul>
+  <li><a class="active" href="file:///C:/Users/hp/Desktop/Sublime%20Text%203/Homepage1.html">Home</a></li>
+  <li><a href="file:///C:/Users/hp/Desktop/Sublime%20Text%203/registrationpage1.html">Regisration Form</a></li>
+ 
+</ul>
+
+<form action="file:///C:/Users/hp/Desktop/Sublime%20Text%203/details.html">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fnam" value=""><br><br>
+  <label for="email">E-mail:</label>
+  <input type="email" id="email" name="email" ><br><br>
+  <label for="phone">Phone no:</label>
+  <input type="tel" id="phone" name="phone" placeholder="10-digit no." ><br><br>
+  <label>Gender:</label>
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">Other</label><br><br>
+  <label>Reason for RDIP:</label>
+  <input type="checkbox" id="reason1" name="Reason1" value="html">
+  <label for="Reason1">HTML</label>
+  <input type="checkbox" id="reason2" name="reason2" value="css">
+  <label for="reason2">CSS</label>
+  <input type="checkbox" id="reason3" name="reason3" value="javascript">
+  <label for="reason3">Javascript</label><br><br>
+  <label for="cname">College:</label>
+  <input type="text" id="cname" name="cnam" ><br><br>
+  <input type="checkbox" id="declaration" name="declaration" value="agree">
+  <label for="declaration">I declare above details given by me are true</label><br><br>
+  <button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+</form>
+</body>
+</html>
+
